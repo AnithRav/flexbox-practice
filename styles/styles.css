@@ -3,8 +3,16 @@
 }
 .container {
     border: 4px solid black;
-    padding: 24px;
+    padding: 24px 24px 24px 24px;
 }
+
+.row {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; /* This centres the component */
+}
+/* You will see container-row combo often. Container is the 
+entire box and row will cap the sides */
 
 .title{
     border: 2px solid lightgray;
@@ -14,8 +22,9 @@
 }
 .box {
     border: 4px solid lightgray;
-    width: calc(100% / 3);
+    width: 30%;
     height: 100px;
+    margin-bottom: 24px;
 }
 
 .box-wrapper {
